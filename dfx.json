@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "canisters": {
+    "zkredact": {
+      "type": "motoko",
+      "main": "canisters/zkredact/main.mo"
+    },
+    "zkredact_frontend": {
+      "type": "assets",
+      "source": "frontend/dist"
+    }
+  },
+  "defaults": { "build": { "args": "" } },
+  "output_env_file": ".env"
+}
